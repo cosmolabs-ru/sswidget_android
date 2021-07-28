@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="256sp"
+        android:layout_height="256sp"
+        android:background="@color/cardview_shadow_end_color"
+        android:gravity="center"
+        android:text="45.875"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp">
+
+    </TextView>
+
+</RelativeLayout>
