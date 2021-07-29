@@ -8,12 +8,27 @@
     <TextView
         android:id="@+id/tv2"
         android:layout_width="256sp"
-        android:layout_height="256sp"
+        android:layout_height="48sp"
         android:background="@color/cardview_shadow_end_color"
-        android:gravity="center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="top|start"
         android:text="45.875"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/white"
         android:textSize="36sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="256sp"
+        android:layout_height="32sp"
+        android:layout_below="@+id/tv2"
+        android:layout_marginTop="4sp"
+        android:background="@color/cardview_shadow_end_color"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="top|start"
+        android:text="2077.0.0"
+        android:textColor="@color/white"
+        android:textSize="24sp">
 
     </TextView>
 
